@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/fonts/Catamaran-Black.ttf</file>
+        <file>assets/fonts/Catamaran-Bold.ttf</file>
+        <file>assets/fonts/Catamaran-ExtraBold.ttf</file>
+        <file>assets/fonts/Catamaran-ExtraLight.ttf</file>
+        <file>assets/fonts/Catamaran-Light.ttf</file>
+        <file>assets/fonts/Catamaran-Medium.ttf</file>
+        <file>assets/fonts/Catamaran-Regular.ttf</file>
+        <file>assets/fonts/Catamaran-SemiBold.ttf</file>
+        <file>assets/fonts/Catamaran-Thin.ttf</file>
+        <file>assets/fonts/Chathura-Bold.ttf</file>
+        <file>assets/fonts/Chathura-ExtraBold.ttf</file>
+        <file>assets/fonts/Chathura-Light.ttf</file>
+        <file>assets/fonts/Chathura-Regular.ttf</file>
+        <file>assets/fonts/Chathura-Thin.ttf</file>
+    </qresource>
+</RCC>

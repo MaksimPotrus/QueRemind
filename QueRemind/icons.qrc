@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/icons/arrow-right.svg</file>
+        <file>assets/icons/google-in.svg</file>
+        <file>assets/icons/pen.svg</file>
+        <file>assets/icons/next.svg</file>
+        <file>assets/icons/prev.svg</file>
+        <file>assets/icons/cog.svg</file>
+        <file>assets/icons/dots.svg</file>
+        <file>assets/icons/im.svg</file>
+        <file>assets/icons/down-down.svg</file>
+        <file>assets/icons/arrow-down.svg</file>
+        <file>assets/icons/arrow-up.svg</file>
+        <file>assets/icons/plus.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/DialogLogin.qml</file>
+        <file>qml/DialogRegistration.qml</file>
+        <file>qml/DialogPopupTextField.qml</file>
+        <file>qml/DialogPopupButton.qml</file>
+        <file>qml/DialogPopupTransparentButton.qml</file>
+        <file>qml/VerticalSpacerItem.qml</file>
+        <file>qml/DialogPopup.qml</file>
+        <file>qml/TaskEditor.qml</file>
+        <file>qml/LeftPanel.qml</file>
+        <file>qml/TaskEditorTimeInput.qml</file>
+        <file>qml/ColorPickerPopup.qml</file>
+        <file>qml/TaskEditorDropShadowHelper.qml</file>
+        <file>qml/TaskEditorButton.qml</file>
+        <file>qml/TaskEditorLeftFrame.qml</file>
+        <file>qml/TaskEditorRightFrame.qml</file>
+        <file>qml/TaskEditorCalendar.qml</file>
+        <file>qml/LeftPanelButton.qml</file>
+        <file>qml/LeftPanelUserButton.qml</file>
+        <file>qml/TaskBoard.qml</file>
+        <file>qml/TaskBoardTodayTasks.qml</file>
+        <file>qml/TaskBlock.qml</file>
+        <file>qml/TaskBoardTodayTaskBlocks.qml</file>
+    </qresource>
+</RCC>
