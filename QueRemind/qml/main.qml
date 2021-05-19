@@ -11,7 +11,7 @@ Window {
     height: 600
     minimumWidth: 1400
     minimumHeight: 800
-    visible: false
+    visible: true
     title: "QueRemind"
     color: "#80222222"
 
@@ -37,7 +37,7 @@ Window {
     }
 
     property DialogLogin dialogLogin: DialogLogin {
-        visible: true
+        visible: false
 
         onRegistrationClicked: {
             dialogRegistration.x = dialogLogin.x

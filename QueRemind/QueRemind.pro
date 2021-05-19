@@ -1,4 +1,4 @@
-QT += quick winextras
+QT += quick winextras charts
 
 CONFIG += c++11
 
