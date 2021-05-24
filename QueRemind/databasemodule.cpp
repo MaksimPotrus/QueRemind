@@ -259,3 +259,35 @@ resultQuery DatabaseModule::getLastError()
 {
     return lastError;
 }
+
+resultQuery DatabaseModule::addUser(USER userToAdd)
+{
+    resultQuery result;
+
+    QSqlQuery qu;
+    qu.prepare("SELECT id FROM user_information WHERE user_name = :login");
+    qu.bindValue(":login", userToAdd.userName);
+
+    qu.exec();
+
+    if(qu.size() == 0)
+    {
+        qu.prepare("INSERT INTO user_information (user_name, password) VALUES (:login, :password)");
+        qu.exec();
+
+        if(qu.lastError().type() == qu.lastError().NoError)
+            result.flag = true;
+        else
+        {
+            result.flag = false;
+            result.message = "Failed Registration! " + qu.lastError().text();
+        }
+    }
+    else
+    {
+        result.flag = false;
+        result.message = "Failed Registration! A user with this login already exists.";
+    }
+
+    return result;
+}

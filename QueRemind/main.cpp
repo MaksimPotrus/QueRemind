@@ -3,10 +3,13 @@
 #include <QFontDatabase>
 #include <QDirIterator>
 #include <QQuickWindow>
+#include <QQmlContext>
 
 #ifdef Q_OS_WIN
 #include "winextras/winextra.h"
 #endif
+
+#include "databasecontroller.h"
 
 void registerFonts()
 {
@@ -37,6 +40,9 @@ int main(int argc, char *argv[])
     registerHelpers();
 
     QQmlApplicationEngine engine;
+    DatabaseController dbController;
+    QQmlContext *context = engine.rootContext();
+    context->setContextProperty("dbController", &dbController);
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {

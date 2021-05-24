@@ -30,6 +30,8 @@ public:
     resultQuery     addTask(TASK_INFORMATION taskToAdd);
     resultQuery     deleteTask(int idTaskToDelete);
     resultQuery     setTask(TASK_INFORMATION taskToSet);
+
+    resultQuery     addUser(USER userToAdd);
     resultQuery     setPassword(QString newPassword);
 
     TASK_INFORMATION    getTaskById(int taskId);
