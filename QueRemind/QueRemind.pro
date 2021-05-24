@@ -1,12 +1,15 @@
-QT += quick winextras
+QT += quick winextras sql
 
 CONFIG += c++11
 
 SOURCES += \
+        databasemodule.cpp \
         main.cpp \
         winextras/winextra.cpp
 
 HEADERS += \
+    databasemodule.h \
+    objectsdatabase.h \
     winextras/winextra.h \
     winextras/winstructs.h
 
